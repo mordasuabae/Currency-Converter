@@ -1,0 +1,12 @@
+.calc{
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 50px 50px;
+    width: 40%;
+    margin: 0 auto;
+}
+
+h3{
+    text-align: center;
+}

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <div class="calc">
+            <h3>Currency Converter</h3>
+            <p>Amount</p>
+            <input class="input" type="text" placeholder="$">
+            <!-- <br/> -->
+            <p>From</p>
+            <select class="from option">
+                <option value="USD">
+                    <p> US Dollar (USD)</p>
+                </option>
+                <option value="MXN">
+                    <p> Mexican Peso (MXN)</p>
+                <option value="XOF">
+                    <p> Beninese CFA (XOF)</p>
+                </option>
+                <option value="CAD">
+                    <p> Canadian Dollar (CAD)</p>
+                </option>
+                <option value="HTG">
+                    <p> Haitian Gourde (HTG)</p>
+                </option>
+                <option value="BTC">
+                    <p> Bitcoin (BTC)</p>
+                </option>
+                <option value="CUP">
+                    <p> Cuban Peso (CUP)</p>
+                </option>
+                <option value="BGP">
+                    <p> British Pound (BGP)</p>
+                </option>
+            </select>
+            <!-- <br/> -->
+            <p>To:</p>
+            <select class="to option">
+                <option value="MXN">
+                    <p> Mexican Peso (MXN)</p>
+                </option>
+                <option value="USD">
+                    <p> US Dollar (USD)</p>
+                </option>
+                <option value="XOF">
+                    <p> Beninese CFA (XOF)</p>
+                </option>
+                <option value="CAD">
+                    <p> Canadian Dollar (CAD)</p>
+                </option>
+                <option value="HTG">
+                    <p> Haitian Gourde (HTG)</p>
+                </option>
+                <option value="BTC">
+                    <p> Bitcoin (BTC)</p>
+                </option>
+                <option value="CUP">
+                    <p> Cuban Peso (CUP)</p>
+                </option>
+                <option value="BGP">
+                    <p> British Pound (BGP)</p>
+                </option>
+            </select>
+            <br/>
+            <button class="calculate">Calculate</button>
+            <div class="text">
+                <!--Total Amount-->
+                <p class="num"></p>
+            </div>
+        </div>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
